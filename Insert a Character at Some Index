@@ -1,0 +1,14 @@
+//Insert a Character at Some Index
+
+import java.util.*;
+
+public class Strings {
+    public static void main(String args[]) {
+        StringBuilder sb = new StringBuilder("Ajeet raj");
+        sb.insert(1, 'y');
+        System.out.println(sb);
+    }
+}
+
+//Output
+//Ayjeet raj
