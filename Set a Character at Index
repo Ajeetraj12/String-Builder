@@ -1,0 +1,14 @@
+//Set a Character at Index
+
+import java.util.*;
+
+public class Strings {
+    public static void main(String args[]) {
+        StringBuilder sb = new StringBuilder("Ajeet raj");
+        sb.setCharAt(0, 'p');
+        System.out.println(sb);
+    }
+}
+
+//Output
+//pjeet raj
