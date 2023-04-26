@@ -1,0 +1,13 @@
+//Get A character from Index
+
+import java.util.*;
+
+public class Strings {
+    public static void main(String args[]) {
+        StringBuilder sb = new StringBuilder("Ajeet raj");
+        System.out.println(sb.charAt(0));
+    }
+}
+
+//Output
+//A
