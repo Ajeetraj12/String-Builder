@@ -1,0 +1,17 @@
+//Print Length of String
+
+import java.util.*;
+
+public class Strings {
+    public static void main(String args[]) {
+        StringBuilder sb = new StringBuilder("Ajeet");
+        sb.append(" Raj");
+        System.out.println(sb);
+        
+        System.out.println(sb.length());
+    }
+}
+
+//Output
+//Ajeet Raj
+//9
